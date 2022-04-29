@@ -10,7 +10,7 @@
 
 ### Proposta 
 
-Desenvolver uma página de apresentação pessoal responsivo utilizando o aprendizado na jornar Hiring Coders #3.
+Desenvolver uma página de apresentação pessoal responsivo utilizando o aprendizado na fase 1 da jornada Hiring Coders #3.
 
 ### Planejamento
 
