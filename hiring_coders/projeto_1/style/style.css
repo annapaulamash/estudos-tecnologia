@@ -23,6 +23,7 @@ header{
     border-bottom: 10px ridge whitesmoke;
     box-shadow: 1px 7px 10px 1px blue;
     margin-bottom: 45px;
+    
 }
 header ul{
     display: flex;     
