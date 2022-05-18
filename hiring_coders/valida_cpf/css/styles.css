@@ -1,0 +1,78 @@
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+#validation {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/VTEX-hiring-code_capa-blogspot.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+#validation-form {
+  background-color: #ff8bd9;;
+  padding: 2em;
+  max-width: 22%;
+}
+
+#validation-form p {
+  font-size: 1.5em;
+  color: #142032;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+
+.form-group label {
+  color: #5d5d5d;
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: #ff5500;;
+  color: #000000;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+  
+  #validation {
+    flex-direction: column;
+    height: auto;
+  }  
+  #validation-form {
+    max-width: 70%;
+    margin-bottom: 2em;
+  }
+
+}
