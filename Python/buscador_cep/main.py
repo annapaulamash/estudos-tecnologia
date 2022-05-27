@@ -1,10 +1,8 @@
-from Fuctions import *
-from Interface import interface
 
+from Interface import *
 
-
-    
+   
 
 if __name__ == '__main__':
 
-    interface()
+    janela_princial()
