@@ -1,0 +1,49 @@
+/*variáveis */
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+    }
+/*Reset*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*base*/
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', TImes, Serif; 
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .Logo{
+    color:var(--vermelho);
+    font-family: 'Arial Black', TImes;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color:#fff;
+
+}
+/*conteudo-principal*/
+.conteudo-principal{
+    font-size:  16px;
+   
+    background: url(../img/filhotes.jpg);
+    background-size: cover;
+    height: 600px; 
+   
+  
+}
+    

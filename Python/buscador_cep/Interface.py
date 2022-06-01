@@ -20,7 +20,7 @@ def janela_princial():
             break
         if window == janela and avent == 'BUSCAR':
             if values['input_cep'] == '':
-                sg.popup('Preencha o campo! \n O campo não pode ficam em branco.')
+                sg.popup('Preencha o campo! \n O campo não pode ficar em branco.')
             elif len(values['input_cep']) < 8:
                 sg.popup('CEP inválido!\nDigite 8 digitos!')
             else:

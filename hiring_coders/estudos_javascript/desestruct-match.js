@@ -1,28 +1,29 @@
-const pessoa = {
-    nome: 'Ney',
-    sobrenome: 'Backes',
-    idade: 29,
-    profissao: 'Estagiário de Testes Front-end'
+var p = 5; function func() {
 
-};
-
-//let nome = pessoa.nome;
-//let sobrenome = pessoa.sobrenome;
-//let idade = pessoa.idade;
-//let profissao = pessoa.profissao;
-
-
-//variável objeto
-
-let {nome ,sobrenome, idade, profissao} = pessoa;
-
-
-
-//match
-
-const cpf = "Meu cpf é 123.456.789-11";
-
-const regex = new RegExp('[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}');
-
-
-console.log(cpf.match(regex));
+    var p = 9;
+    
+    
+    
+    function decl() { console.log(p);
+    
+    }
+    
+    var expr = function() { console.log(p);
+    
+    };
+    
+    var cons = new Function('\tconsole.log(p);');
+    
+    
+    
+    decl();
+    
+    expr();
+    
+    cons();
+    
+    }
+    
+    func();
+    
+    
